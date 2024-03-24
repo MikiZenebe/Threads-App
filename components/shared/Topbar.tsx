@@ -7,9 +7,7 @@ export default function Topbar() {
     <nav className="topbar">
       <Link className="flex items-center gap-4" href="/">
         <Image src="/assets/logo.svg" alt="logo" width={28} height={28} />
-        <p className="text-heading3-bold text-light-1 max-xs:hidden">
-          Ethreads
-        </p>
+        <p className="text-heading3-bold text-black max-xs:hidden">Ethreads</p>
       </Link>
 
       <div className="flex items-center gap-1">

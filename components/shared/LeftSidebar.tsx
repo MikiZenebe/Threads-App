@@ -22,7 +22,7 @@ export default function LeftSidebar() {
             <Link
               href={link.route}
               key={link.label}
-              className={`leftsidebar_link ${isActive && "bg-orange-400"}`}
+              className={`leftsidebar_link ${isActive && "bg-[#f7f7f7]"}`}
             >
               <Image
                 src={link.imgURL}
@@ -30,7 +30,9 @@ export default function LeftSidebar() {
                 width={24}
                 height={24}
               />
-              <p className="text-light-1 max-lg:hidden">{link.label}</p>
+              <p className="text-black font-semibold max-lg:hidden">
+                {link.label}
+              </p>
             </Link>
           );
         })}
@@ -46,7 +48,7 @@ export default function LeftSidebar() {
                 width={24}
                 height={24}
               />
-              <p className="text-light-2 max-lg:hidden">Logout</p>
+              <p className="text-black max-lg:hidden">Logout</p>
             </div>
           </SignOutButton>
         </SignedIn>
