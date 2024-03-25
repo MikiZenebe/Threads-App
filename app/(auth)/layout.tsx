@@ -4,7 +4,7 @@ import "../globals.css";
 
 export const metadata = {
   title: "Ethio-Threads",
-  description: "A Next.js 13 Threads Application",
+  description: "A Threads app for ethiopian community",
 };
 
 const inter = Inter({ subsets: ["latin"] });
